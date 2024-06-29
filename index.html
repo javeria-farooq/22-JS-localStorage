@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local storage</title>
+    <title>Registration Form | Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="signupContainer">
+    <h1>---Sign Up Form---</h1>
+    <input type="email" class="signEmail" placeholder="Email...">
+    <br><br>
+    <input type="password" class="signPass" placeholder="Password...">
+    <br><br>
+    <button class="signBtn">Sign Up</button>
+</div>
 
+<div class="loginContainer hide">
+    <h1>---Log In Form---</h1>
+    <input type="email" class="loginEmail" placeholder="Email...">
+    <br><br>
+    <input type="password" class="loginPass" placeholder="Password...">
+    <br><br>
+    <button class="loginBtn">Log In</button>
+</div>
 
+<div class="welcomeContainer hide">
+    <h1>Welcome <span class="userName"></span></h1>
+</div>
 
+<script src="app.js"></script>
 
-
-    
-    <script src="app.js"></script>
 </body>
 </html>
